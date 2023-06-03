@@ -2,9 +2,10 @@ import './LoginUi.css';
 import profile from "./../image/a.png";
 import email from "./../image/email.png";
 import pass from "./../image/lock.png";
+// import bg from "./../image/login_bgnew.png"
 function LoginUi() {
   return (
-    <div className="main">
+    <div className="main" >
      
      <div className="sub-main">
        <div>
