@@ -5,6 +5,10 @@ import pass from "./../image/lock.png";
 // import bg from "./../image/login_bgnew.png"
 function LoginUi() {
   return (
+    <div className='img'>
+    <div className='suvi'>
+      <p>SUVIDHA</p>
+    </div>  
     <div className="main" >
      
      <div className="sub-main">
@@ -43,6 +47,7 @@ function LoginUi() {
        
 
      </div>
+    </div>
     </div>
   );
 }
