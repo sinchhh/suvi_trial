@@ -1,6 +1,6 @@
 .img {
   /* background-image: url("login_bgnew.png"); */
-    background-color: rgb(30, 67, 73);
+    background-color: rgb(61, 106, 113);
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -18,13 +18,27 @@
     padding-left: 5%;
     font-weight: 800;
     font-family: 'Oswald', sans-serif;
+    flex-shrink: 2;
 
 }
+/* @media only screen and (min-device-width: 64em) {
+    .main {
+        font-size: 1.25em;
+    }
+
+    .cover {
+        width: 25%;
+        height: 65%;
+    }
+} */
+
 
 .main {
     text-align: center;
-    justify-content: center;
+    
     display: flex; 
+    justify-content: center;
+    align-items: center;
     
          /* padding-left: 50%;
     padding-bottom: 5%;
@@ -34,6 +48,9 @@
     /* height: 50%; */
     width: 50%;
     padding-inline-start: 25%;
+    padding-top: 2%;
+    
+    
     /* padding-top: 10%;
     padding-left: 10%; */
   }
@@ -42,11 +59,12 @@
   .sub-main {
     display: flex;
     justify-content: center;
-    height: 450px;
-    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    /* height: 450px;
+    width: 60%; */
     /* box-shadow: 11px 12px 13px 12px rgb(207, 207, 207); */
-    padding-top: 20px;
-    padding-bottom: 25px;
+    padding: 20px;
     border-radius: 30px; 
     background-color: rgb(13, 63, 69);
     opacity: 0.7;
@@ -59,7 +77,7 @@
   }
 
   input{
-      width: 300px;
+      /* width: 300px; */
       height: 50px;
       border-radius: 60px;
       /* box-shadow: inset 0px 0px 25px 0px #888; */
@@ -109,3 +127,32 @@
    a{
        color: rgb(255, 255, 255);
    }
+
+   /* Media queries for responsive design */
+@media only screen and (max-width: 768px) {
+  .suvi {
+    font-size: large;
+  }
+  
+  .main {
+    padding-inline-start: 10%;
+    width: 80%;
+  }
+  
+  .sub-main {
+    width: 90%;
+  }
+  
+  input {
+    width: 70%;
+  }
+  
+  button {
+    width: 45%;
+  }
+}
+
+
+
+
+
