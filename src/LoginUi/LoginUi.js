@@ -19,12 +19,12 @@ function LoginUi() {
          <div className='title'>
            <h1>LOGIN</h1>
            <div>
-             <img src={email} alt="email" className="email"/>
+             <img src={email} alt="email" className="email-pic"/>
              <input type="text" placeholder="email" className="name"/><br></br>
            </div>
            <div className="second-input">
-             <img src={pass} alt="pass" className="email"/>
-             <input type="password" placeholder="password" className="name"/><br></br>
+             <img src={pass} alt="pass" className="email-pic"/>
+             <input type="password" placeholder="4-digit pin" className="name"/><br></br>
            </div>
 
           <div className="login-button">
@@ -32,7 +32,7 @@ function LoginUi() {
           </div>
        
            <p className="link">
-              <a href="#">Forgot password?</a> 
+              <a href="#">Forgot pin?</a> 
               <br></br>
               <a href="#">Sign Up</a>
             </p>
