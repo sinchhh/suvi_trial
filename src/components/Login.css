@@ -1,16 +1,12 @@
 .img {
-  /* background-image: url("login_bgnew.png"); */
-    background: linear-gradient(0deg,#062526, #167D7F);;
+    background: linear-gradient(0deg,#062526, #167D7F 60%);;
     height: 100vh;
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* padding-inline-start: 0%; */
     background-size: cover;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+    border: none;
+    
 }
 .suvi{
     color: #fff;
@@ -18,56 +14,53 @@
     padding-left: 5%;
     font-weight: 800;
     font-family: 'Oswald', sans-serif;
-    flex-shrink: 2;
 
 }
-/* @media only screen and (min-device-width: 64em) {
-    .main {
-        font-size: 1.25em;
-    }
-
-    .cover {
-        width: 25%;
-        height: 65%;
-    }
-} */
-
-
 .main {
     text-align: center;
     
     display: flex; 
-    justify-content: center;
-    align-items: center;
-    
-         /* padding-left: 50%;
-    padding-bottom: 5%;
-    padding-inline-start: 50%; */
-    /* background-image: url("C:\Users\sinch\suvidha\src\image\login_bgnew.png");
-    background-color: #e1e3eb; */
-    /* height: 50%; */
-    width: 50%;
-    padding-inline-start: 25%;
-    padding-top: 2%;
-    opacity: 0.6;
-    
-    /* padding-top: 10%;
-    padding-left: 10%; */
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 100%;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+     /* width: 50%; */
+    padding-inline-start: 5%; 
+    /* padding-top: 2%; */
+    /* opacity: 0.6; */
   }
 
-  
+  .intro {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: left;
+    flex: 2 1 0;
+    padding-top: 5%;
+    padding-inline-end: 20%;
+  }
+  .frame {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-inline-end: 8%;
+    width:27%;
+  }
   .sub-main {
+    
+    /* width: 60%; */
+    flex: 1 1 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* height: 450px;
-    width: 60%; */
-    /* box-shadow: 11px 12px 13px 12px rgb(207, 207, 207); */
-    padding: 20px;
+   /* box-shadow: 11px 12px 13px 12px rgb(207, 207, 207); */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
     border-radius: 30px; 
-    background-color: rgb(13, 63, 69);
-    /* opacity: 0.7; */
+    background-color: rgba(13, 63, 69, 0.77);
   }
 
   .title{
@@ -77,13 +70,11 @@
   }
 
   input{
-      /* width: 300px; */
       height: 50px;
       border-radius: 60px;
-      /* box-shadow: inset 0px 0px 25px 0px #888; */
       border: none;
       outline: none;
-      background-color: #6fa3ae;
+      background-color: #ffffff;
       width: 70%;
       opacity: 100%;
   }
@@ -91,7 +82,7 @@
   input::placeholder {
     font-weight: bold;
     opacity: 1;
-    color: #062526;
+    color: #0b2123;
 }
 
   .email{
@@ -128,32 +119,55 @@
       font-size: 25px;
       border: none;
   }
-  .login-button{
-      padding-top: 25px;
-      
-      
-  }
-
-  .link{
-      font-size: 15px;
-      font-weight: 400;
-  }
+  
    a{
        color: rgb(255, 255, 255);
+       font-size: 15px;
+      
    }
 
    /* Media queries for responsive design */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1100px) {
+    .main {
+    padding-inline-start: 5%;
+    
+  }
+  .intro {
+    padding-inline-end: 5%;
+  }
+  .frame {
+    
+    width:37%;
+  }
+  
+  input {
+    width: 70%;
+  }
+  
+  button {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .img{
+    height: 100%;
+  }
+  
   .suvi {
-    font-size: x-large;
+    font-size: 20px;
+    padding-bottom: 0%;
   }
   
   .main {
-    padding-inline-start: 10%;
-    width: 80%;
+    padding-inline-start: 5%;
+    /* width: 80%; */
+    flex-direction: column;
+    padding-top: 0%;
   }
-  
-  .sub-main {
+  .intro {
+    font-size: 20px;
+  }
+  .frame {
     width: 90%;
   }
   
@@ -165,7 +179,6 @@
     width: 45%;
   }
 }
-
 
 
 
