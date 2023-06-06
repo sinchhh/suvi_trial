@@ -10,7 +10,7 @@ function Login() {
       <meta name="viewport" content="width=device-width,initial-scale=1"/>
 
     <div className='suvi'>
-      <p>SUVIDHA</p>
+      SUVIDHA
     </div> 
     <div className="main" >
      <div className="intro">
