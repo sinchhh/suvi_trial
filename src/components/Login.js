@@ -1,9 +1,9 @@
-import './LoginUi.css';
-import profile from "./../image/a.png";
+import './Login.css';
 import email from "./../image/email.png";
 import pass from "./../image/lock.png";
+import React from "react";
 // import bg from "./../image/login_bgnew.png"
-function LoginUi() {
+function Login() {
   return (
     
     <div className='img'>
@@ -34,7 +34,7 @@ function LoginUi() {
            <p className="link">
               <a href="#">Forgot pin?</a> 
               <br></br>
-              <a href="#">Sign Up</a>
+              <a href="/signup">Sign Up</a>
             </p>
             <br></br>
            
@@ -49,4 +49,4 @@ function LoginUi() {
   );
 }
 
-export default LoginUi;
+export default Login;
