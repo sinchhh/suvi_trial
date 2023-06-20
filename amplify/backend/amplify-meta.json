@@ -1,0 +1,57 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-3etrial-dev-180909-authRole",
+      "UnauthRoleArn": "arn:aws:iam::710686405759:role/amplify-3etrial-dev-180909-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::710686405759:role/amplify-3etrial-dev-180909-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-3etrial-dev-180909-deployment",
+      "UnauthRoleName": "amplify-3etrial-dev-180909-unauthRole",
+      "StackName": "amplify-3etrial-dev-180909",
+      "StackId": "arn:aws:cloudformation:ap-south-1:710686405759:stack/amplify-3etrial-dev-180909/f5388f30-0d0b-11ee-813d-023ce5bb8104",
+      "AmplifyAppId": "d162nzyd8y9jgq"
+    }
+  },
+  "auth": {
+    "3etrial40a7ef85": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "output": {
+        "UserPoolId": "ap-south-1_RXP0HpXn4",
+        "AppClientIDWeb": "63sfa89lb2lnvj94aa9a384o5t",
+        "AppClientID": "46irkoh4ir0gvkut9gms1rrq85",
+        "IdentityPoolId": "ap-south-1:e34cc6a0-dd1b-4348-9785-cb6e386c9dbc",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:710686405759:userpool/ap-south-1_RXP0HpXn4",
+        "IdentityPoolName": "3etrial40a7ef85_identitypool_40a7ef85__dev",
+        "UserPoolName": "3etrial40a7ef85_userpool_40a7ef85"
+      },
+      "lastPushTimeStamp": "2023-06-19T06:27:20.532Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-3etrial-dev-180909-deployment/amplify-cfn-templates/auth/3etrial40a7ef85-cloudformation-template.json",
+        "logicalId": "auth3etrial40a7ef85"
+      }
+    }
+  }
+}

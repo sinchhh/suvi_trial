@@ -8,15 +8,14 @@
     border: none;
     
 }
-.suvi{
+/* .suvi{
     color: #fff;
-    font-size: xx-large;
+    font-size: x-large;
     padding: 2%;
-    padding-left: 5%;
-    font-weight: 800;
-    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-family: 'Segoe Print';   
 
-}
+} */
 .main {
     text-align: center;
     
@@ -24,25 +23,30 @@
     flex-direction: row;
     justify-content: space-between;
     opacity: 100%;
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
-    /* align-items: center; */
-     /* width: 50%; */
     padding-inline-start: 5%; 
-    /* padding-top: 2%; */
-    /* opacity: 0.6; */
+    padding-top: 2%;
+  }
+  .ses {
+    font-size: 55px;
+    font-weight: 800;
+    font-family: 'Palatino';
+    padding-top: 5%;
+    padding-bottom: 20%;
   }
 
   .intro {
     font-size: 25px;
+    display: flex;
+    flex-direction: column;
     color: #ffffff;
     text-align: left;
     flex: 2 1 0;
-    padding-top: 5%;
+    /* padding-top: 10%; */
     padding-inline-end: 20%;
+    font-family: 'Palatino';
   }
   .frame {
-    padding-top: 2%;
+    padding-top: 8%;
     padding-bottom: 2%;
     padding-left: 2%;
     padding-inline-end: 8%;
@@ -64,27 +68,35 @@
     background-color: rgba(13, 63, 69, 0.77);
   }
 
-  .title{
-    font-size: 25px;
-    color: #ffffff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  .title-logo{
+    padding: 5%;
   }
-
+  .logo-pic {
+    padding-left: 10%;  
+    height: 70%;
+      width: 70%;
+      position: relative;
+      /* padding: 14px 0 0 25px;
+      opacity: 100%; */
+  }
   input{
       height: 50px;
       border-radius: 60px;
-      border: none;
-      outline: none;
+      font-weight: 100;
+    color: #0b2123;
+    font-family: 'Rockwell';
       background-color: #ffffff;
       width: 70%;
       opacity: 100%;
+      border: none;
   }
 
   input::placeholder {
-    font-weight: bold;
-    opacity: 1;
-    color: #0b2123;
-}
+    font-weight: 100;
+  color: #0b2123;
+  font-family: 'Rockwell';
+  }
+  
 
   .email{
       height: 25px;
@@ -116,9 +128,11 @@
       height: 50px;
       border-radius: 60px;
       background-color: #ffffff;
-      color: rgb(0, 0, 0);
-      font-size: 25px;
       border: none;
+      font-size: 25px;
+      font-weight: 100;
+  color: #0b2123;
+  font-family: 'Rockwell';
   }
   
    a{
@@ -133,11 +147,17 @@
     padding-inline-start: 5%;
     
   }
+  .ses {
+    padding-bottom: 18%;
+    padding-top: 5%;
+    font-size: 50px;
+  }
   .intro {
-    padding-inline-end: 5%;
+    padding-inline-end: 4%;
+    font-size: 23px;
   }
   .frame {
-    
+    padding-top: 10%;
     width:37%;
   }
   
@@ -153,12 +173,17 @@
   .img{
     height: 100%;
   }
-  
+/*   
   .suvi {
     font-size: 20px;
     padding-bottom: 0%;
+  } */
+  .ses {
+    padding-top: 5%;
+    font-size: 42px;
+    padding-bottom: 2%;
+    text-align: center;
   }
-  
   .main {
     padding-inline-start: 5%;
     /* width: 80%; */
@@ -166,7 +191,8 @@
     padding-top: 0%;
   }
   .intro {
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
   }
   .frame {
     width: 90%;
